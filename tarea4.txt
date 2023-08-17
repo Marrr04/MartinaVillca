@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class CategoriaFamiliar {
+public class tarea4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Ingrese la categorÌa (a, b o c): ");
+        System.out.print("Ingrese la categor√≠a (a, b o c): ");
         char categoria = sc.next().charAt(0);
         
         if (categoria == 'a') {
@@ -14,7 +14,7 @@ public class CategoriaFamiliar {
         } else if (categoria == 'c') {
             System.out.println("Abuelos");
         } else {
-            System.out.println("CategorÌa inv·lida");
+            System.out.println("Categor√≠a inv√°lida");
         }
     }
 }
