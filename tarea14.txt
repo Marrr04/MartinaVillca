@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class TorneoSwitch {
+public class tarea14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -10,13 +10,13 @@ public class TorneoSwitch {
 
         switch (puesto) {
             case 1:
-                System.out.println("¡Obtienes la medalla de oro!");
+                System.out.println("Â¡Obtienes la medalla de oro!");
                 break;
             case 2:
-                System.out.println("¡Obtienes la medalla de plata!");
+                System.out.println("Â¡Obtienes la medalla de plata!");
                 break;
             case 3:
-                System.out.println("¡Obtienes la medalla de bronce!");
+                System.out.println("Â¡Obtienes la medalla de bronce!");
                 break;
             default:
                 System.out.println("Sigue participando");
