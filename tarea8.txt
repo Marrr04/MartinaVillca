@@ -2,7 +2,7 @@ package Tarea8;
 
 import java.util.Scanner;
 
-public class PiedraPapelTijera {
+public class tarea8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
