@@ -1,17 +1,17 @@
 
 import java.util.Scanner;
 
-public class MayorDeTresAnd {
+public class tarea10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Ingrese el primer número: ");
+        System.out.print("Ingrese el primer nÃºmero: ");
         int num1 = sc.nextInt();
         
-        System.out.print("Ingrese el segundo número: ");
+        System.out.print("Ingrese el segundo nÃºmero: ");
         int num2 = sc.nextInt();
         
-        System.out.print("Ingrese el tercer número: ");
+        System.out.print("Ingrese el tercer nÃºmero: ");
         int num3 = sc.nextInt();
         
         int mayor;
@@ -24,6 +24,6 @@ public class MayorDeTresAnd {
             mayor = num3;
         }
         
-        System.out.println("El número mayor es: " + mayor);
+        System.out.println("El nÃºmero mayor es: " + mayor);
     }
 }
