@@ -1,21 +1,21 @@
 
 import java.util.Scanner;
 
-public class TipoCurso {
+public class tarea6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Ingrese el número del curso: ");
+        System.out.print("Ingrese el nÃºmero del curso: ");
         int curso = sc.nextInt();
         
         if (curso == 0) {
-            System.out.println("Jardín de infantes");
+            System.out.println("JardÃ­n de infantes");
         } else if (curso >= 1 && curso <= 6) {
             System.out.println("Primaria");
         } else if (curso >= 7 && curso <= 12) {
             System.out.println("Secundaria");
         } else {
-            System.out.println("Curso inválido");
+            System.out.println("Curso invÃ¡lido");
         }
     }
 }
