@@ -1,17 +1,17 @@
 
 import java.util.Scanner;
 
-public class EvaluacionesAlumnoCiclos {
+public class tarea171 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese la nota de la primera evaluación: ");
+        System.out.print("Ingrese la nota de la primera evaluaciÃ³n: ");
         int evaluacion1 = scanner.nextInt();
 
-        System.out.print("Ingrese la nota de la segunda evaluación: ");
+        System.out.print("Ingrese la nota de la segunda evaluaciÃ³n: ");
         int evaluacion2 = scanner.nextInt();
 
-        System.out.print("Ingrese la nota de la tercera evaluación: ");
+        System.out.print("Ingrese la nota de la tercera evaluaciÃ³n: ");
         int evaluacion3 = scanner.nextInt();
 
         int promedio = (evaluacion1 + evaluacion2 + evaluacion3) / 3;
