@@ -1,11 +1,11 @@
 
 import java.util.Scanner;
 
-public class TablaMultiplicar {
+public class tarea16 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese un número: ");
+        System.out.print("Ingrese un nÃºmero: ");
         int numero = scanner.nextInt();
 
         System.out.println("Tabla de multiplicar de " + numero + ":");
