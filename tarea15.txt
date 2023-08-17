@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class CaracteristicasAuto {
+public class tarea15 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class CaracteristicasAuto {
                 System.out.println("Clase C: 4 ruedas, un motor, cierre centralizado, aire y airbag");
                 break;
             default:
-                System.out.println("Clase no v·lida");
+                System.out.println("Clase no v√°lida");
                 break;
         }
 
