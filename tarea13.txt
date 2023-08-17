@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CantidadDiasMesSwitch {
+public class tarea13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -29,14 +29,14 @@ public class CantidadDiasMesSwitch {
                 cantidadDias = 28;
                 break;
             default:
-                cantidadDias = -1; //indicativo de mes inv·lido
+                cantidadDias = -1; //indicativo de mes inv√°lido
                 break;
         }
         
         if (cantidadDias == -1) {
-            System.out.println("Nombre de mes inv·lido.");
+            System.out.println("Nombre de mes inv√°lido.");
         } else {
-            System.out.println("El mes de " + nombreMes + " tiene " + cantidadDias + " dÌas.");
+            System.out.println("El mes de " + nombreMes + " tiene " + cantidadDias + " d√≠as.");
         }
     }
 }
