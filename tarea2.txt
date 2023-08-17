@@ -1,17 +1,17 @@
 
 import java.util.Scanner;
 
-public class ParImpar {
+public class tarea2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Ingrese un número: ");
+        System.out.print("Ingrese un nÃºmero: ");
         int numero = sc.nextInt();
         
         if (numero % 2 == 0) {
-            System.out.println("El número es par.");
+            System.out.println("El nÃºmero es par.");
         } else {
-            System.out.println("El número es impar.");
+            System.out.println("El nÃºmero es impar.");
         }
     }
 }
