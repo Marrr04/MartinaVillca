@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CantidadDiasMes {
+public class tarea3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -11,14 +11,14 @@ public class CantidadDiasMes {
             nombreMes.equalsIgnoreCase("mayo") || nombreMes.equalsIgnoreCase("julio") ||
             nombreMes.equalsIgnoreCase("agosto") || nombreMes.equalsIgnoreCase("octubre") ||
             nombreMes.equalsIgnoreCase("diciembre")) {
-            System.out.println(nombreMes + " tiene 31 dÌas");
+            System.out.println(nombreMes + " tiene 31 d√≠as");
         } else if (nombreMes.equalsIgnoreCase("febrero")) {
-            System.out.println(nombreMes + " tiene 28 dÌas");
+            System.out.println(nombreMes + " tiene 28 d√≠as");
         } else if (nombreMes.equalsIgnoreCase("abril") || nombreMes.equalsIgnoreCase("junio") ||
                    nombreMes.equalsIgnoreCase("septiembre") || nombreMes.equalsIgnoreCase("noviembre")) {
-            System.out.println(nombreMes + " tiene 30 dÌas");
+            System.out.println(nombreMes + " tiene 30 d√≠as");
         } else {
-            System.out.println("Nombre de mes inv·lido");
+            System.out.println("Nombre de mes inv√°lido");
         }
     }
 }
